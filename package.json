@@ -1,0 +1,21 @@
+{
+    "name": "sample-webdriverIO-tests",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "wdio ./Configs/test.conf.js"
+    },
+    "repository": {
+        "type": "git"
+      },
+      "dependencies": {
+        "chai": "~4.1.1",
+        "mocha": "~3.5.0",
+        "wdio-mocha-framework": "~0.5.10",
+        "webdriverio": "~4.8.0"
+      },
+      "devDependencies": {
+        "wdio-selenium-standalone-service": "0.0.9"
+      }
+    }
+  
+  
